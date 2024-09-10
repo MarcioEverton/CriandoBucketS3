@@ -20,7 +20,13 @@ Um bucket S3 é como uma pasta gigante na nuvem da Amazon (AWS) onde você pode 
 6- Backup e Recuperação: Ideal para guardar cópias de segurança dos seus arquivos e recuperar facilmente se algo der errado.
 
 # Vamos iniciar a criacao do Bucket S3
-Ja logado na sua conta e na tela inicial do console da AWS, pesquise por S3
+
+Já logado na sua conta e na tela inicial do console da AWS, pesquise por S3 e clique em criar Bucket.
 ![image](https://github.com/user-attachments/assets/19334bd3-0db0-4f23-a309-7d635875ab2b)
+![image](https://github.com/user-attachments/assets/948f25eb-b893-44c6-b64a-5ce3bdd25ef2)
+
+
+
+
 
 
