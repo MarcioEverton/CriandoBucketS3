@@ -60,6 +60,16 @@ Para podermos hospedar o site, temos que ativar a opcao de Hospedagem de site es
 
 ![image](https://github.com/user-attachments/assets/ff6b94cf-c23b-4dd2-aff9-89b8930b81d1)
 
-Clique em editar, em ativar, para o bucket reconhecer a pagina inicial do site, o arquivo deve se chamar "index.html"
+Clique em editar, em ativar, para o bucket reconhecer a pagina inicial do site, o arquivo deve se chamar "index.html" depois salve as alteracoes.
 
 ![image](https://github.com/user-attachments/assets/774224bb-467c-4ebf-bdd2-a8b817f2165a)
+
+# Hospedando site estático.
+
+Dentro do Bucket, clique em Carregar, ou arraste os arquivos para dentro do Bucket.
+
+![image](https://github.com/user-attachments/assets/54e797e3-ba5a-4dcc-bb04-18e3989ef385)
+
+
+
+
