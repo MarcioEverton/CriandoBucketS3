@@ -18,7 +18,10 @@ Um bucket S3 é como uma pasta gigante na nuvem da Amazon (AWS) onde você pode 
 
 6- Backup e Recuperação: Ideal para guardar cópias de segurança dos seus arquivos e recuperar facilmente se algo der errado.
 
-# Vamos iniciar a criacao do Bucket S3
+## Por que usar o Amazon S3 para Hospedar Sites Estáticos?
+O Amazon S3 é uma excelente opção para hospedar sites estáticos (como portfólios, blogs simples ou landing pages) devido ao baixo custo, alta disponibilidade e simplicidade. Para sites de baixo tráfego, é uma solução eficiente e econômica.
+
+# Vamos iniciar a criação do Bucket S3
 
 ### Passo 1: Criando o Bucket
 
