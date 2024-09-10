@@ -25,7 +25,9 @@ Já logado na sua conta e na tela inicial do console da AWS, pesquise por S3 e c
 ![image](https://github.com/user-attachments/assets/948f25eb-b893-44c6-b64a-5ce3bdd25ef2)
 
 
+Na pagina seguinte temos todas as etapas para a criacao de um bucket, temos a regiao onde sera hospedada o bucket,o tipo de bucket,nome (sendo um nome unico no mundo),podemos definir quem pode acessar nosso bucket e realizar gravacoes nele ou ate mesmo quem pode acessar com as configuracoes de acesso publico, podemos realizar criptografia,ativar o versionamento para preservar, recuperar e restaurar as versoes dos seus obejtos. 
 
+Neste tutorial, vamos a
 
 
 
