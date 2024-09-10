@@ -85,11 +85,17 @@ Copie o ARN do Bucket, para usarmos nessa etapa, e clique em Gerador de politica
 ![image](https://github.com/user-attachments/assets/d9478bb0-0eca-47c2-ab26-f69cd18920a4)
 
 No tipo de Politica selecione S3 Bucket 
+
 Effect - Allow
+
 No input Principal deixe " * "
+
 Em Actions Procure por "Get Object
+
 Amazon Resource Name cole a ARN do seu Bucket
+
 Para Finalizar clique em Add Statment e depois em Generate Policy
+
 ![image](https://github.com/user-attachments/assets/f056d207-3e88-4b8d-bfbb-6d1f786e6606)
 
 
