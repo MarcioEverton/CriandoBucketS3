@@ -86,11 +86,9 @@ Copie o ARN do Bucket, para usarmos nessa etapa, e clique em Gerador de politica
 
 No tipo de Politica selecione S3 Bucket 
 
-Effect - Allow
-
 No input Principal deixe " * "
 
-Em Actions Procure por "Get Object
+Em Actions Procure por "Get Object"
 
 Amazon Resource Name cole a ARN do seu Bucket
 
