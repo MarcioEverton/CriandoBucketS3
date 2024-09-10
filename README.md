@@ -73,6 +73,5 @@ Dentro do Bucket, clique em Carregar, ou arraste os arquivos para dentro do Buck
 ![image](https://github.com/user-attachments/assets/3b479360-6034-4d5e-84df-dd90495bb6b4)
 
 
-
-
+## Passo 4 
 
