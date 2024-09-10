@@ -128,5 +128,7 @@ Cole o link no navegador para acessar seu site.
 
 ![image](https://github.com/user-attachments/assets/db10f4d0-ade3-4f5d-94b2-2274c7daab3d)
 
+# Conclusão
+Hospedar um site estático no Amazon S3 é uma maneira eficiente e econômica de colocar seu conteúdo online. Com um processo simples de configuração, você pode aproveitar a segurança, escalabilidade e facilidade de uso que o S3 oferece. Além disso, ao seguir os passos detalhados neste tutorial, você aprendeu a criar um bucket, configurar permissões de acesso e publicar seu site na internet.
 
 
