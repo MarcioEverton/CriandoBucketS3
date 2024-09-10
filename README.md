@@ -44,7 +44,7 @@ Essa opcao faz com que ao hospedarmos nosso site, possamos acessesa-lo atraves d
 
 ![image](https://github.com/user-attachments/assets/c4b175a6-ce2b-433d-ba32-6671ea3c7a43)
 
-## Passo 4 
+### Passo 3: Criando o Bucket
 
 Clique em criar Bucket
 
