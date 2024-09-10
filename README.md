@@ -95,5 +95,7 @@ Amazon Resource Name cole a ARN do seu Bucket
 Para Finalizar clique em Add Statment e depois em Generate Policy
 
 ![image](https://github.com/user-attachments/assets/f056d207-3e88-4b8d-bfbb-6d1f786e6606)
+![image](https://github.com/user-attachments/assets/01b39555-6997-46da-baf6-3959dbdd88f2)
+
 
 
