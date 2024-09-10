@@ -21,6 +21,7 @@ Um bucket S3 é como uma pasta gigante na nuvem da Amazon (AWS) onde você pode 
 # Vamos iniciar a criacao do Bucket S3
 
 ## Passo 1
+
 No console da AWS, Pesquise por S3 e clique em criar um Bucket.
 ![image](https://github.com/user-attachments/assets/19334bd3-0db0-4f23-a309-7d635875ab2b)
 ![image](https://github.com/user-attachments/assets/948f25eb-b893-44c6-b64a-5ce3bdd25ef2)
@@ -32,6 +33,7 @@ Na pagina seguinte temos todas as etapas para a criacao de um bucket, temos a re
 ## Passo 2
 
 Coloque um nome para seu bucket.
+
 ![image](https://github.com/user-attachments/assets/e58984c6-1692-4df2-8087-c271fc8f44e9)
 
 
