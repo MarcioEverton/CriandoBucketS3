@@ -20,14 +20,27 @@ Um bucket S3 é como uma pasta gigante na nuvem da Amazon (AWS) onde você pode 
 
 # Vamos iniciar a criacao do Bucket S3
 
-## Passo 1
+### Passo 1: Criando o Bucket
 
 No console da AWS, Pesquise por S3 e clique em criar um Bucket.
 ![image](https://github.com/user-attachments/assets/19334bd3-0db0-4f23-a309-7d635875ab2b)
 ![image](https://github.com/user-attachments/assets/948f25eb-b893-44c6-b64a-5ce3bdd25ef2)
 
 
-Na pagina seguinte temos todas as etapas para a criacao de um bucket, temos a regiao onde sera hospedada o bucket,o tipo de bucket,nome (sendo um nome unico no mundo),podemos definir quem pode acessar nosso bucket e realizar gravacoes nele ou ate mesmo quem pode acessar com as configuracoes de acesso publico, podemos realizar criptografia,ativar o versionamento para preservar, recuperar e restaurar as versoes dos seus obejtos. 
+Na página seguinte, você verá as etapas para a criação do bucket. Preencha o Nome do bucket (lembrando que ele deve ser único globalmente) e escolha a Região de hospedagem.
+
+Nome do bucket exemplo: meu-site-estatico-bucket
+
+Região: Escolha a mais próxima de você ou do seu público.
+
+Configurações adicionais:
+
+Controle de acesso: Aqui você define quem pode acessar seu bucket e realizar gravações. Desmarque a opção de bloqueio de acesso público se você estiver hospedando um site público.
+
+Criptografia: Você pode ativar a criptografia para maior segurança dos seus dados.
+
+Versionamento: Ative o versionamento se precisar preservar versões anteriores dos arquivos.
+
 
 
 ## Passo 2
@@ -37,12 +50,13 @@ Coloque um nome para seu bucket.
 ![image](https://github.com/user-attachments/assets/e58984c6-1692-4df2-8087-c271fc8f44e9)
 
 
-## Passo 3
+### Passo 2: Configurando o Acesso Público
 
-Va ate as configuracoes de bloqueio do acesso publico e desmarque a primeira opcao.
-Essa opcao faz com que ao hospedarmos nosso site, possamos acessesa-lo atraves da URL. 
+Vá até as configurações de bloqueio de acesso público e desmarque a primeira opção. Isso permite que seu site seja acessado publicamente pela URL.
 
 ![image](https://github.com/user-attachments/assets/c4b175a6-ce2b-433d-ba32-6671ea3c7a43)
+
+Atenção: Desbloquear o acesso público pode expor seus arquivos. Use essa opção apenas para sites que precisam ser públicos.
 
 ### Passo 3: Criando o Bucket
 
@@ -50,10 +64,11 @@ Clique em criar Bucket
 
 ![image](https://github.com/user-attachments/assets/e8a6578d-632c-49e1-b500-c5858e7ec8f5)
 
-
-### Passo 4: Configurando a Hospedagem de Site Estático 
+Bucket criado com sucesso!
 
 ![image](https://github.com/user-attachments/assets/e4f033fa-38b9-4cf4-9751-c5e1855146ed)
+
+### Passo 4: Configurando a Hospedagem de Site Estático
 
 No bucket criado, vá até Propriedades e role até a opção Hospedagem de site estático.
 
