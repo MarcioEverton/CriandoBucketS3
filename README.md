@@ -32,17 +32,17 @@ No console da AWS, Pesquise por S3 e clique em criar um Bucket.
 
 Na página seguinte, você verá as etapas para a criação do bucket. Preencha o Nome do bucket (lembrando que ele deve ser único globalmente) e escolha a Região de hospedagem.
 
-Nome do bucket exemplo: meu-site-estatico-bucket
+*Nome do bucket exemplo:* meu-site-estatico-bucket
 
-Região: Escolha a mais próxima de você ou do seu público.
+*Região:* Escolha a mais próxima de você ou do seu público.
 
-Configurações adicionais:
+*Configurações adicionais:*
 
 Controle de acesso: Aqui você define quem pode acessar seu bucket e realizar gravações. Desmarque a opção de bloqueio de acesso público se você estiver hospedando um site público.
 
-Criptografia: Você pode ativar a criptografia para maior segurança dos seus dados.
+*Criptografia:* Você pode ativar a criptografia para maior segurança dos seus dados.
 
-Versionamento: Ative o versionamento se precisar preservar versões anteriores dos arquivos.
+*Versionamento:* Ative o versionamento se precisar preservar versões anteriores dos arquivos.
 
 
 
@@ -59,7 +59,7 @@ Vá até as configurações de bloqueio de acesso público e desmarque a primeir
 
 ![image](https://github.com/user-attachments/assets/c4b175a6-ce2b-433d-ba32-6671ea3c7a43)
 
-Atenção: Desbloquear o acesso público pode expor seus arquivos. Use essa opção apenas para sites que precisam ser públicos.
+*Atenção:* Desbloquear o acesso público pode expor seus arquivos. Use essa opção apenas para sites que precisam ser públicos.
 
 ### Passo 3: Criando o Bucket
 
@@ -73,11 +73,11 @@ Bucket criado com sucesso!
 
 ### Passo 4: Configurando a Hospedagem de Site Estático
 
-No bucket criado, vá até Propriedades e role até a opção Hospedagem de site estático.
+No bucket criado, vá até Propriedades e role até a opção *Hospedagem de site estático*.
 
 ![image](https://github.com/user-attachments/assets/ff6b94cf-c23b-4dd2-aff9-89b8930b81d1)
 
-Clique em Editar e ative a hospedagem de site estático. Defina o nome do arquivo de índice como index.html.
+Clique em Editar e ative a hospedagem de site estático. Defina o nome do arquivo de índice como *index.html*.
 
 ![image](https://github.com/user-attachments/assets/774224bb-467c-4ebf-bdd2-a8b817f2165a)
 
@@ -92,7 +92,7 @@ Dentro do bucket, clique em Carregar ou arraste os arquivos do site para dentro 
 
 ### Passo 6: Configurando Permissões de Acesso.
 
- Vá até Permissões e clique em Política do bucket.
+ Vá até *Permissões* e clique em *Política do bucket*.
  
  ![image](https://github.com/user-attachments/assets/bb0350fe-bcfa-4af4-9a62-979fc488ef82)
  
@@ -102,18 +102,18 @@ Copie o ARN do bucket (encontrado no painel de propriedades) e clique em Gerador
 
 No Gerador de Políticas:
 
-Tipo de Política: Selecione S3 Bucket.
+*Tipo de Política:* Selecione S3 Bucket.
 
-Principal: Deixe como "*" (acesso público).
+*Principal:* Deixe como "*" (acesso público).
 
-Ações: Escolha GetObject (permitir acesso aos arquivos).
+*Ações:* Escolha GetObject (permitir acesso aos arquivos).
 
-ARN: Cole o ARN do seu bucket.
+*ARN:* Cole o ARN do seu bucket.
 
 ![image](https://github.com/user-attachments/assets/f056d207-3e88-4b8d-bfbb-6d1f786e6606)
 ![image](https://github.com/user-attachments/assets/01b39555-6997-46da-baf6-3959dbdd88f2)
 
-Copie a política gerada e cole no campo de Política do bucket, adicionando /* após o ARN para permitir o acesso a todos os arquivos. Clique em Salvar Alterações.
+Copie a política gerada e cole no campo de Política do bucket, adicionando */** após o ARN para permitir o acesso a todos os arquivos. Clique em Salvar Alterações.
 
 ![image](https://github.com/user-attachments/assets/bce309bf-7ad9-4897-ad87-3eef62da2d65)
 
