@@ -37,4 +37,22 @@ Coloque um nome para seu bucket.
 ![image](https://github.com/user-attachments/assets/e58984c6-1692-4df2-8087-c271fc8f44e9)
 
 
+## Passo 3
+
+Va ate as configuracoes de bloqueio do acesso publico e desmarque a primeira opcao.
+Essa opcao faz com que ao hospedarmos nosso site, possamos acessesa-lo atraves da URL. 
+
+![image](https://github.com/user-attachments/assets/c4b175a6-ce2b-433d-ba32-6671ea3c7a43)
+
+## Passo 4 
+
+Clique em criar Bucket
+
+![image](https://github.com/user-attachments/assets/e8a6578d-632c-49e1-b500-c5858e7ec8f5)
+
+
+## Passo 4 
+Bucket criado com Sucesso!
+
+![image](https://github.com/user-attachments/assets/e4f033fa-38b9-4cf4-9751-c5e1855146ed)
 
