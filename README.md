@@ -51,55 +51,64 @@ Clique em criar Bucket
 ![image](https://github.com/user-attachments/assets/e8a6578d-632c-49e1-b500-c5858e7ec8f5)
 
 
-## Passo 4 
-Bucket criado com Sucesso!
+### Passo 4: Configurando a Hospedagem de Site Estático 
 
 ![image](https://github.com/user-attachments/assets/e4f033fa-38b9-4cf4-9751-c5e1855146ed)
 
-Para podermos hospedar o site, temos que ativar a opcao de Hospedagem de site estatico, Clicando no bucket que foi criado, indo em propiedades e seguindo ate a ultima opcao.
+No bucket criado, vá até Propriedades e role até a opção Hospedagem de site estático.
 
 ![image](https://github.com/user-attachments/assets/ff6b94cf-c23b-4dd2-aff9-89b8930b81d1)
 
-Clique em editar, em ativar, para o bucket reconhecer a pagina inicial do site, o arquivo deve se chamar "index.html" depois salve as alteracoes.
+Clique em Editar e ative a hospedagem de site estático. Defina o nome do arquivo de índice como index.html.
 
 ![image](https://github.com/user-attachments/assets/774224bb-467c-4ebf-bdd2-a8b817f2165a)
 
-# Hospedando site estático.
+### Passo 5: Carregando os Arquivos do Site.
 
-Dentro do Bucket, clique em Carregar, ou arraste os arquivos para dentro do Bucket e clique em carregar.
+Dentro do bucket, clique em Carregar ou arraste os arquivos do site para dentro do bucket, e clique em Carregar.
 
 ![image](https://github.com/user-attachments/assets/54e797e3-ba5a-4dcc-bb04-18e3989ef385)
 
 ![image](https://github.com/user-attachments/assets/3b479360-6034-4d5e-84df-dd90495bb6b4)
 
 
-## Para podermos ter acesso a site precisamos criar permissoes.
+### Passo 6: Configurando Permissões de Acesso.
 
- Clique em ermissoes e va ate Politica do Bucket, e clique em editar.
+ Vá até Permissões e clique em Política do bucket.
  
  ![image](https://github.com/user-attachments/assets/bb0350fe-bcfa-4af4-9a62-979fc488ef82)
  
-
-Copie o ARN do Bucket, para usarmos nessa etapa, e clique em Gerador de politicas.
+Copie o ARN do bucket (encontrado no painel de propriedades) e clique em Gerador de Políticas.
 
 ![image](https://github.com/user-attachments/assets/d9478bb0-0eca-47c2-ab26-f69cd18920a4)
 
-No tipo de Politica selecione S3 Bucket 
+No Gerador de Políticas:
 
-No input Principal deixe " * "
+Tipo de Política: Selecione S3 Bucket.
 
-Em Actions Procure por "Get Object"
+Principal: Deixe como "*" (acesso público).
 
-Amazon Resource Name cole a ARN do seu Bucket
+Ações: Escolha GetObject (permitir acesso aos arquivos).
 
-Para Finalizar clique em Add Statment e depois em Generate Policy
+ARN: Cole o ARN do seu bucket.
 
 ![image](https://github.com/user-attachments/assets/f056d207-3e88-4b8d-bfbb-6d1f786e6606)
 ![image](https://github.com/user-attachments/assets/01b39555-6997-46da-baf6-3959dbdd88f2)
 
-
-Copie a Politica gerada e cole no campo Politica do seu bucket adicionando apos o nome do seu Bucket " /* " para termos acesso a todos os arquivos contidos nesse bucket.
-Clique em Salvar alteracao.
+Copie a política gerada e cole no campo de Política do bucket, adicionando /* após o ARN para permitir o acesso a todos os arquivos. Clique em Salvar Alterações.
 
 ![image](https://github.com/user-attachments/assets/bce309bf-7ad9-4897-ad87-3eef62da2d65)
+
+### Passo 7: Finalizando e Acessando o Site
+Site no ar! Vá até Propriedades > Hospedagem de site estático e copie o link gerado.
+
+Cole o link no navegador para acessar seu site.
+
+![image](https://github.com/user-attachments/assets/5b66b3e7-f4c9-46d4-815e-d9e644504f60)
+
+# Parabéns! Seu site estático está hospedado com sucesso no Amazon S3!
+
+![image](https://github.com/user-attachments/assets/db10f4d0-ade3-4f5d-94b2-2274c7daab3d)
+
+
 
