@@ -98,4 +98,7 @@ Para Finalizar clique em Add Statment e depois em Generate Policy
 ![image](https://github.com/user-attachments/assets/01b39555-6997-46da-baf6-3959dbdd88f2)
 
 
+Copie a Politica gerada e cole no campo Politica do seu bucket adicionando apos o nome do seu Bucket " /* " para termos acesso a todos os arquivos contidos nesse bucket.
+
+![image](https://github.com/user-attachments/assets/bce309bf-7ad9-4897-ad87-3eef62da2d65)
 
