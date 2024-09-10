@@ -56,7 +56,7 @@ Bucket criado com Sucesso!
 
 ![image](https://github.com/user-attachments/assets/e4f033fa-38b9-4cf4-9751-c5e1855146ed)
 
-para podermos hospedar o site, temos que ativar a opcao de Hospedagem de site estatico, Clicando no bucket que foi criado, indo em propiedades a ultima opcao.
+Para podermos hospedar o site, temos que ativar a opcao de Hospedagem de site estatico, Clicando no bucket que foi criado, indo em propiedades e seguindo ate a ultima opcao.
 
 ![image](https://github.com/user-attachments/assets/ff6b94cf-c23b-4dd2-aff9-89b8930b81d1)
 
